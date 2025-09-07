@@ -27,5 +27,4 @@ test.only('My First Test', async ({ page }) => {
   await page.getByRole('button', { name: 'Login'}).click()
 
   await page.pause()
-
 });
